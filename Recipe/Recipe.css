@@ -1,0 +1,536 @@
+body {
+    background-color: rgb(247, 229, 232);
+    font-family: "outfit", serif;
+    font-size: 14px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    
+  
+.about {
+    background: white;
+    padding: 2.5rem 3em;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 18px;
+    border-radius: 18px;
+    max-width: 500px;
+    line-height: 2.0;
+    color: gray;
+    
+}
+
+.omelette {
+    width: 100%;
+    border-radius: 18px;
+   
+}
+
+.h1 {
+    color: black;
+    font-size: bold;
+    font-family: "outfit", serif;
+    font-weight: 700;
+    font-size: 37px;
+    padding-bottom: 1px;
+    text-align: justify;
+    line-height: 1.0;
+}
+
+.h2 {
+    color: rgb(173, 65, 65);
+    font-size: 18px;
+}
+
+.Preparation {
+    background-color: rgb(252, 244, 246);
+}
+
+.Pre {
+    color:rgb(197, 108, 138);
+}
+
+.Nutrition {
+    width: 70%;
+
+}
+
+.kcal {
+    color: rgb(173, 65, 65);
+}
+
+.g {
+    color: rgb(173, 65, 65);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+   td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+}
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .about {
+        background: white;
+        padding: 2.5rem 3em;
+        margin: 10px auto;
+        width: 90%;
+        border-radius: 18px;
+        border-radius: 18px;
+        max-width: 500px;
+        line-height: 2.0;
+        color: gray;
+        
+    }
+
+.omelette {
+    width: 100%;
+    border-radius: 18px;
+   
+}
+
+.h1 {
+    color: black;
+    font-size: bold;
+    font-family: "outfit", serif;
+    font-weight: 700;
+    font-size: 37px;
+    padding-bottom: 1px;
+    text-align: justify;
+    line-height: 1.0;
+}
+
+.h2 {
+    color: rgb(173, 65, 65);
+    font-size: 18px;
+}
+
+.Preparation {
+    background-color: rgb(252, 244, 246);
+}
+
+.Pre {
+    color:rgb(197, 108, 138);
+}
+
+.Nutrition {
+    width: 70%;
+
+}
+
+.kcal {
+    color: rgb(173, 65, 65);
+}
+
+.g {
+    color: rgb(173, 65, 65);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+   td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+  }
+   /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  .about {
+    background: white;
+    padding: 2.5rem 3em;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 18px;
+    border-radius: 18px;
+    max-width: 500px;
+    line-height: 2.0;
+    color: gray;
+    
+}
+  .omelette {
+    width: 100%;
+    border-radius: 18px;
+   
+}
+
+.h1 {
+    color: black;
+    font-size: bold;
+    font-family: "outfit", serif;
+    font-weight: 700;
+    font-size: 37px;
+    padding-bottom: 1px;
+    text-align: justify;
+    line-height: 1.0;
+}
+
+.h2 {
+    color: rgb(173, 65, 65);
+    font-size: 18px;
+}
+
+.Preparation {
+    background-color: rgb(252, 244, 246);
+}
+
+.Pre {
+    color:rgb(197, 108, 138);
+}
+
+.Nutrition {
+    width: 70%;
+
+}
+
+.kcal {
+    color: rgb(173, 65, 65);
+}
+
+.g {
+    color: rgb(173, 65, 65);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+   td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+  }
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+  .about {
+    background: white;
+    padding: 2.5rem 3em;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 18px;
+    border-radius: 18px;
+    max-width: 500px;
+    line-height: 2.0;
+    color: gray;
+    
+}  
+    .omelette {
+        width: 100%;
+        border-radius: 18px;
+       
+    }
+    
+    .h1 {
+        color: black;
+        font-size: bold;
+        font-family: "outfit", serif;
+        font-weight: 700;
+        font-size: 37px;
+        padding-bottom: 1px;
+        text-align: justify;
+        line-height: 1.0;
+    }
+    
+    .h2 {
+        color: rgb(173, 65, 65);
+        font-size: 18px;
+    }
+    
+    .Preparation {
+        background-color: rgb(252, 244, 246);
+    }
+    
+    .Pre {
+        color:rgb(197, 108, 138);
+    }
+    
+    .Nutrition {
+        width: 70%;
+    
+    }
+    
+    .kcal {
+        color: rgb(173, 65, 65);
+    }
+    
+    .g {
+        color: rgb(173, 65, 65);
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+    
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+       td {
+        padding: 5px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+    
+      hr { 
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+      } 
+    }
+
+    /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .about {
+        background: white;
+        padding: 2.5rem 3em;
+        margin: 10px auto;
+        width: 90%;
+        border-radius: 18px;
+        border-radius: 18px;
+        max-width: 500px;
+        line-height: 2.0;
+        color: gray;
+        
+    }
+      .omelette {
+        width: 100%;
+        border-radius: 18px;
+       
+    }
+    
+    .h1 {
+        color: black;
+        font-size: bold;
+        font-family: "outfit", serif;
+        font-weight: 700;
+        font-size: 37px;
+        padding-bottom: 1px;
+        text-align: justify;
+        line-height: 1.0;
+    }
+    
+    .h2 {
+        color: rgb(173, 65, 65);
+        font-size: 18px;
+    }
+    
+    .Preparation {
+        background-color: rgb(252, 244, 246);
+    }
+    
+    .Pre {
+        color:rgb(197, 108, 138);
+    }
+    
+    .Nutrition {
+        width: 70%;
+    
+    }
+    
+    .kcal {
+        color: rgb(173, 65, 65);
+    }
+    
+    .g {
+        color: rgb(173, 65, 65);
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+    
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+       td {
+        padding: 5px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+    
+      hr { 
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+      }
+    } 
+    
+     /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .about {
+        background: white;
+        padding: 2.5rem 3em;
+        margin: 10px auto;
+        width: 90%;
+        border-radius: 18px;
+        border-radius: 18px;
+        max-width: 500px;
+        line-height: 2.0;
+        color: gray;
+        
+    }
+
+  .omelette {
+    width: 100%;
+    border-radius: 18px;
+   
+}
+
+.h1 {
+    color: black;
+    font-size: bold;
+    font-family: "outfit", serif;
+    font-weight: 700;
+    font-size: 37px;
+    padding-bottom: 1px;
+    text-align: justify;
+    line-height: 1.0;
+}
+
+.h2 {
+    color: rgb(173, 65, 65);
+    font-size: 18px;
+}
+
+.Preparation {
+    background-color: rgb(252, 244, 246);
+}
+
+.Pre {
+    color:rgb(197, 108, 138);
+}
+
+.Nutrition {
+    width: 70%;
+
+}
+
+.kcal {
+    color: rgb(173, 65, 65);
+}
+
+.g {
+    color: rgb(173, 65, 65);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+   td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+  }
+  
